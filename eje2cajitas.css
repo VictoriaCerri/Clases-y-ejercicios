@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.cajaGris {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+}
+.relativo {
+    position: relative;
+}
+.cajaRoja {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+}
+.cajaVerde {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.cajaRoja2 {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.cajaVerde2 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.cajaRoja3 {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.cajaVerde3 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cajaRoja4 {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.cajaVerde4 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+}
+.cajaRoja5 {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.cajaVerde5 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+.cajaRoja6 {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.cajaVerde6 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+}
+.cajaRoja7 {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
+.cajaVerde7 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.cajaRoja8 {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
+.cajaVerde8 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    position: absolute;
+    right: 35px;
+    bottom: 0px;
+}
+.cajaRoja9 {
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.cajaVerde9 {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    position: absolute;
+    right: 35px;
+    bottom: 35px;
+}

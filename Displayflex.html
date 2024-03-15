@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 5</title>
+    <link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+    <!--flex grow cuanto puede crecer, flex shrink cuanto puede encojerse, flex wrap wrap se acomoda en cuadriculas dependiendo el espacio disponible, flex basis
+    justify content ubicacion y alineacion del contenido, align-items, eso sirve para acomodar de forma vertical, es importante poner al contenedor principal, el padre, 100% de vh view hight, para que ocupe todo el alto de la pantalla asi permitir acomodarse de forma vertical, baseline alinea segun el contenido de la caja todos los contenidos sobre el mismo renglon, align content (sirve mucho usarlo con wrap) acomoda todos los elementos horizontal y verticalmente  -->
+    <div class="padre">
+        <div class="hijo" style="flex-grow: 1;">1</div>
+        <div class="hijo">2</div>
+        <div class="hijo" style="order: 2;">3</div>
+        <div class="hijo" style="order: 1;">4</div>
+    </div>
+    <div class="contenedor"> 
+        <div class="extremo"></div>
+        <div class="medio"></div>
+        <div class="extremo"></div>
+    </div>
+    <br>
+    <div class="contenedor">
+        <div class="extremo 2"></div>
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="extremo 2"></div>
+    </div>
+
+    <div>
+        <div>
+            <h1>Ejercicio 3</h1>
+
+            <div class="caja">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGrVGyZIpSiyAcGPcfo1jzHWNXMzxmTV8aYmgDBCi1-A&s" alt="">
+                <div class="descripcion">
+                    <div>
+                        <h2>Titulo</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odit, animi eius cumque ipsa eligendi maiores nam assumenda odio nulla dignissimos.  repellendus ullam at, modi nihil dolores assumenda sint illum sit repellat. Ea corporis dolorem quod eum beatae delectus nihil placeat, sit commodi laboriosam consequatur harum  </p>
+                    </div>
+                    <p>Año-Genero</p>
+                </div>
+                <div class=""></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

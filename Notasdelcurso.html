@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    
+<head>
+
+    <title>Curso de HTML</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Los titulos se escriben con h, h1 es el mas grande, h6 el mas chico, se suelen usar entre 1 y 4-->
+    <h1 id="Titulo principal">Titulo primero</h1>
+    <h2>Titulo secundario</h2>
+    <hr/> <!-- el hr se puede usar para espaciar, genera una linea horizontal en el documento-->
+    <p id="Parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nihil totam adipisci porro repellendus dicta incidunt sed aut commodi repellat, enim amet aspernatur, rem vero itaque quis laborum libero animi.</p>
+
+    <br/> <!-- el br se puede usar para espaciar-->
+
+    <div id="Estoesdiv">
+        <h2>Este es un div</h2>
+        <!--hay un generador de parrafos que se llama lorem ipsum, se puede convocar o puede buscarse en google el generador de parrafos para completar. 
+            La p se usa para convocar el atributo de parrafo-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde iste doloribus cum illo tenetur quaerat fuga recusandae exercitationem hic rerum sint necessitatibus esse deserunt nisi possimus voluptatem, at ullam!</p>
+    </div>
+    <br/>
+ 
+<span id="Estoesspan">
+        <h2>Esto es un span</h2>
+        <p>Lorem ipsum dolor sit, <strong> amet consectetur adipisicing elit. </strong> Obcaecati maiores mollitia vel cupiditate, debitis quis eos iusto velit iure sequi voluptatum numquam harum repellendus impedit, ipsum eveniet accusamus! Itaque, pariatur!</p>
+</span>
+     <br/>
+<div id="Listas">
+    
+    <h3>Lista desordenada</h3>
+    <ul>
+        <!--Esto es para lista desordenada, apareceran puntitos en vez de numeros-->
+        <li>Frutilla</li>
+        <li>Manzana</li>
+        <li>Banana</li>
+        <li>Pera</li>
+        <li>Mandarina</li>
+        <li>Naranja</li>
+        <li>Uva</li>
+    
+    </ul>
+    <br>
+    <h3>Lista ordenada</h3>
+    <ol type="i">
+        <!--Esto es para lista ordenada, apareceran listados con numeros puede agregarse luego del ol un espacio y "type" para cambiar si es numeros o letras-->
+        <li>Frutilla</li>
+        <li>Manzana</li>
+        <li>Banana</li>
+        <li>Pera</li>
+        <li>Mandarina</li>
+        <li>Naranja</li>
+        <li>Lista dentro de otra lista</li>
+            <ul>
+                <li>Lista anidada</li>
+                <li>Frutilla</li>
+                <li>Manzana</li>
+                <li>Banana</li>
+                <li>Pera</li>
+                <li>Mandarina</li>
+                <li>Naranja</li>
+                <li>Uva</li>
+            </ul>
+        </li>
+    </ol>
+    <br/>
+    <h2>Lista de definiciones</h2>
+    <dl>
+        <!-- Lista de definiciones, dt es para termino y dd para la definicion, primero el termino a la izquierda y la definicion abajo a la derecha.           
+        -->
+        <dt>Manzana</dt>
+        <dd>Fruta roja dulce</dd>
+        <dt>Cuchillo</dt>
+        <dd>Objeto cortante</dd>
+        <dt>Azucar</dt>
+        <dd>Endulzante para bebidas o comidas</dd>
+        <dt>Tenedor</dt>
+        <dd>Utensillo de cocina para comer</dd>
+    </dl>
+</div>
+    <br>
+    <h3>Hipervinculo</h3>
+    <a href="https://students.adaitw.org/courses/a0tDo000002ZYaZIAW">Curso Ada</a>
+    <a href="/clase1/ejercicio1.html">Ejercicio 1</a>
+        <!-- Hipervinculos, se usa la letra a, autocompleta ahref="" dentro de las comillas va el hipervinculo, el link de donde quiero que me lleve y dentro de los corchetes ><  se pone la etiqueta que le queremos crear. 
+        Tambien puede ser un vinculo externo o una ubicacion dentro de las carpetas de mi html, con "." entras a buscar las carpetas dentro 
+        ".." te lleva a carpetas fuera de la que se está posicionado (sirve para generar link para volver atras).
+        El live server toma solamente lo que esté dentro de la carpeta sobre la que está trabajando el live server, se sugiere tener lo que se va a usar en el repositorio porque a veces los links se dan de baja y dejan de funcionar generando conflicto a futuro
+        ./ o ../ para buscar dentro de las carpetas
+        absolutas: internet - relativas: computadora
+        -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat laudantium a ratione, vel minus optio qui culpa natus molestiae, dolore blanditiis inventore exercitationem amet? Impedit nobis facere voluptatum ratione iure!</p>
+    
+    <h2>Imagenes</h2>
+    <img src="https://www.clarin.com/img/2021/10/01/_LQgXHesJ_1256x620__1.jpg" width="300px" alt="Descripcion de la imagen" title="Titulo emergente de la foto">
+    <!--Las imagenes citadas así poniendo su medida son una mala practica, es mejor modificarlo desde css. 
+        el atributo alt sirve para agregarle a la imagen una descripción en caso de que la imagen no funcione va a mostrar el mensaje en alt. 
+        tambien puede agregarse el atributo title, que va a mostrar una burbujita con el nombre que le quieras poner a la imagen cuando pase el cursor por arriba-->
+    <hr>
+    <h3>imagen encuadrada</h3>
+    <figure>
+        <img src="https://www.clarin.com/img/2021/10/01/_LQgXHesJ_1256x620__1.jpg" width="300px" alt="Descripcion de la imagen" title="Titulo emergente de la foto">
+        <figcaption>Descripcion de la imagen, donde empieza y donde termina, alinea la descripcion con la imagen</figcaption>
+    </figure>
+
+    <br>
+    <h3>Entrar a link dentro del html</h3>
+    <a href="./ejercicio4.html">Receta</a>
+    <hr>
+    <a href="https://students.adaitw.org/courses/a0tDo000002ZYaZIAW">Ir a Curso</a>
+    <br> 
+    <!-- se peude agregarle al hipervinculo el atributo target que permite que se abra en una nueva pestaña-->
+    <a href="https://students.adaitw.org/courses/a0tDo000002ZYaZIAW" target="_blank">Ir a curso en nueva pestaña</a>
+    <br>
+    <!-- punto de anclaje, sirve para volver arriba de la pagina dentro lo que quiera que vuelva arriba tengo que generar un id dentro de un elemento para hacerlo unico-->
+    <a href="#Titulo principal">Volver al inicio</a>
+
+    <!--crear formularios, pueden usarse para crear buscadores o para postear información
+    el atributo required hace que sea obligatorio completarlo
+    -->
+    <br>
+<form action="" method="get">
+    <input type="text" required>
+    <br>
+    <input type="password" name="Nombre" id="Contaseña">
+    <br>
+    <input type="radio" name="hombre o mujer" id="">
+    <br>
+    <input type="submit" value="Enviarlo al backend">
+    <br>
+    <input type="date" name="" id="">
+    <br>
+    <input type="email" name="" id="">
+    <br>
+    <input type="checkbox" name="" id="">
+    <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br>    
+    <select name="" id="">
+        <option value="">Argentina</option>
+        <option value="">Peru</option>
+        <option value="">Chile</option>
+    </select>
+    <button>Hola</button>
+
+    <!--Cuando se crean cuadros como div o span, y dentro tiene otras etiquetas pasan a ser una familia se selecciona por ejemplo los parrafos dentro de un div : div > p { y dentro las especificaciones} siempre que sean hijos directos, los que no sean directos pueden citarse sin usar el > , ej: div span se va a visualizar div ... span, los padres heredan los estilos a sus hijos, para citar con id se usa #
+    selector de tipo universal es asterisco
+    puede modificarse el margen, margin: 0; se crea clase en el lugar q se necesita sobre el html y en la hoja de css se cita .claseseleccionada y luego se ponen las caracteristicas 
+    por etiqueta tambien pueden haerse-->
+
+    <!--para traer hojas de estilos en el head se usa link rel= stylesheet href ./style.css. 
+    distintos formatos para poner colores
+    RGB = color: rgb(0, 0, 0) mezcla rojo, verde y azul, es entre 0 y 255, despliega un menu de color para seleccionar.
+    hexadecimal es otro metodo va del 0 al 9 y de la A a la F, #FFFFFF ese es el formato de codigo, los dos digitos sumados son la transparencia
+    el formato HSL trabaja con matiz, saturacion e intensidad, el ultimo es transparencia, 
+    se puede elegir el tipo de letra en css poniendo font-family, se pone el que se quiere y uno de respaldo por si el naegador no lo soporta.
+    se puede cambiar el tamaño, font-size: pueden indicarse pixeles el tamaño, es una medida fija, no se utiliza mucho para el tamaño de letra, se usa mas algo que permita adaptarse al tamaño de pantalla, una es porcentaje, tiene en cuenta el tipo que tiene predeterminado el navegador y de ese usa el porcentaje que se le asigne.
+    el tipo EMS toma el tamaño predeterminado del navegador, osea 1EM = 16 px, 2EM= 32px, 0,5EM= 8 pxs.
+    REM, toma el cuenta el tamaño de letra del padre, trabaja con medidas relativas.
+    se puede agregar "negrita" con font-weight: se puede poner bold para que sea en negrita o en la escala del 100 al 900 su grosor, dependiendo la letra
+    font-style para elegir el tipo, normal, italica, oblicua, etc.
+    se puede hacer transformacion de texto, de mayuscula a minuscula o viceversa (uppercase/lowercase/capitalize, este pone todas las palabras la primera letra mayusc)
+    se puede modificar el centrado del texto con text-align
+    decorado de textos: text-decoration, puede ponerse tachado, doble, y otras opciones. con el none se le saca la decoracion, sirve para sacar el subrayaddo del hipervinculo, tambien se puede poner un estilo de subrayado (underline wavy red)
+    la propiedad identacion agrega sangria text-indent, se pone en pixeles.
+    se pueden agregar espacios, letter-spacing o word-spacing, ambos se ponen con pixeles
+    se puede modificar el alto de un renglon, line-height
+    vertical-align, permite modificar la alineacion de texto
+ -->
+ 
+ <h3>Como traer letras de google fonts en css</h3>
+<!-- Se va a la pagina google fonts, se suele usar un tupo de letra para titulos y otras para los parrafos, se copia el codigo del tipo de letra y dentro del head se pega el link de las letras -->
+
+<h3>Modelo de caja</h3>
+<!--border, los valores van en sentido de las agujas del reloj arriba derecha izq abajo, la mayoria de los parametros que toman pixeles como medida pueden modificarse en el sentido de las agujar del reloj cada uno de los parametros, pueden agregarse imagenes de fondo, con blackground image, puede ponerse en el body o en cualquier otro elemento del html, la imagen tiene que acomodarse al contenedor, a veces se va a repetir la imagen, podes poner que se repira en el eje de las x o el de la y, o evitar que se repita, background position sirve para encuadrar la imagen, o con center centrarla, background repeat x o y, para poner el eje, tambien puede fijarse para que no se mueva la imagen de fondo, background attachment, puede estableserse todo junto en background la url, repeat o no, y otras caracteristicas en una misma linea, linear gradient hace un relleno en degrade con dos colores y puede modificarse los grados, todo esto en inspeccionar te permite modificarlo y facilitarte el codigo para la consola con el resultado final
+la propiedad display modifica el comportamiento de los elementos, el parrafo tiene comportamiento de bloque, ocupa toda la pantalla, el elemento span ocupa solo el espacio que necesita, ,-->
+</form>
+</body>
+</html>

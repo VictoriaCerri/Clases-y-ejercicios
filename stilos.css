@@ -1,0 +1,76 @@
+.padre {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.hijo {
+    border: solid;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    margin: 10px;
+}
+.contenedor {
+    display: flex;
+}
+
+.extremo {
+    width: 250px;
+    background-color: cadetblue;
+    height: 150px;
+}
+.medio {
+    flex-grow: 1;
+    height: 150px;
+    background-color: green;
+}
+
+.div1 {
+    flex-grow: 1;
+    height: 150px;
+    background-color: chartreuse;
+}
+
+.div2 {
+    flex-grow: 1;
+    height: 150px;
+    background-color: rgb(75, 139, 10);
+}
+
+.extremo2 {
+    width: 250px;
+    background-color: rgb(57, 19, 161);
+    height: 150px;
+}
+
+
+.caja {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    gap: 10px;
+}
+img{
+    border: 2px solid black;
+    flex-grow: 1;
+    margin: 5px;
+}
+.descripcion {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    margin: 5px;
+    border: 2px solid grey;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.extremo2 {
+    width: 250px;
+    background-color: rgb(57, 19, 161);
+    height: 150px;
+}

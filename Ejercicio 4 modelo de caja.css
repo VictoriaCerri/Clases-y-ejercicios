@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: skyblue;
+
+}
+.contenedor {
+    margin: 0px auto;
+    width: 500px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 3px 2px 11px #656565d4;
+}
+h2 {
+    display: inline-block;
+    font-size: 35px;
+
+}
+button {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: white;
+    color: gray;
+    border: solid rgba(183, 182, 181, 0.642) 1px;
+    border-radius: 5px;
+}
+.tipo-curso {
+    padding: 20px;
+    border-radius: 5px;
+    border: solid rgba(183, 182, 181, 0.642) 1px;
+    border-left: 5px solid fuchsia;
+        margin: 10px 0px;
+
+}
+
+.tipo-curso2 {
+    padding: 20px;
+    border-radius: 5px;
+    border: solid rgba(183, 182, 181, 0.642) 1px;
+    border-left: 5px solid purple;
+    margin: 10px 0px
+
+}
+
+.tipo-curso3 {
+    padding: 20px;
+    border-radius: 5px;
+    border: solid rgba(183, 182, 181, 0.642) 1px;
+    border-left: 5px solid orange;
+        margin: 10px 0px
+
+}
+
+h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+span {
+    color: gray;
+    font-size: 20px;
+}
